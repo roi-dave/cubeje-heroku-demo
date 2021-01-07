@@ -5,7 +5,7 @@ import cubejs from '@cubejs-client/core';
 import { CubeProvider } from '@cubejs-client/react';
 import Header from './components/Header';
 const API_URL = "https://cubejs-heroku-demo-roi.herokuapp.com";
-const CUBEJS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTAwMTg5NDcsImV4cCI6MTYxMDEwNTM0N30.bphwGQnunbAgzyIJ8Z_Clr8tt5lK3euendo7uKMhmLI";
+const CUBEJS_TOKEN = "07f309641c5ae974ac25fb0975771e3df5ca573de5f36283883c9a09fd07862ffbf2c3f02beeb41cd6c3dc37395f429dec4b7a867941ced63e4a456b787044b7";
 const cubejsApi = cubejs(CUBEJS_TOKEN, {
   apiUrl: `${API_URL}/cubejs-api/v1`
 });
